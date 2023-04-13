@@ -15,6 +15,7 @@
 		79938B8329E8755D00A3F654 /* AFL3_0706012110046_WilliamJohnsonWonggeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79938B8229E8755D00A3F654 /* AFL3_0706012110046_WilliamJohnsonWonggeUITests.swift */; };
 		79938B8529E8755D00A3F654 /* AFL3_0706012110046_WilliamJohnsonWonggeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79938B8429E8755D00A3F654 /* AFL3_0706012110046_WilliamJohnsonWonggeUITestsLaunchTests.swift */; };
 		79938B9229E881D600A3F654 /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79938B9129E881D600A3F654 /* CircleImage.swift */; };
+		79938B9429E883A300A3F654 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79938B9329E883A300A3F654 /* MapView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +47,7 @@
 		79938B8229E8755D00A3F654 /* AFL3_0706012110046_WilliamJohnsonWonggeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AFL3_0706012110046_WilliamJohnsonWonggeUITests.swift; sourceTree = "<group>"; };
 		79938B8429E8755D00A3F654 /* AFL3_0706012110046_WilliamJohnsonWonggeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AFL3_0706012110046_WilliamJohnsonWonggeUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		79938B9129E881D600A3F654 /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
+		79938B9329E883A300A3F654 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 				79938B6929E8755800A3F654 /* ContentView.swift */,
 				79938B6B29E8755C00A3F654 /* Assets.xcassets */,
 				79938B9129E881D600A3F654 /* CircleImage.swift */,
+				79938B9329E883A300A3F654 /* MapView.swift */,
 				79938B6D29E8755C00A3F654 /* Preview Content */,
 			);
 			path = "AFL3-0706012110046-WilliamJohnsonWongge";
@@ -261,6 +264,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				79938B6A29E8755800A3F654 /* ContentView.swift in Sources */,
+				79938B9429E883A300A3F654 /* MapView.swift in Sources */,
 				79938B6829E8755800A3F654 /* AFL3_0706012110046_WilliamJohnsonWonggeApp.swift in Sources */,
 				79938B9229E881D600A3F654 /* CircleImage.swift in Sources */,
 			);
