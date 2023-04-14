@@ -90,6 +90,7 @@
 		79037E0829E992D500EA40E2 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				79037E1329E99AB700EA40E2 /* LandmarkDetail.swift */,
 				79938B9329E883A300A3F654 /* MapView.swift */,
 				79938B9129E881D600A3F654 /* CircleImage.swift */,
 				79938B6929E8755800A3F654 /* ContentView.swift */,
@@ -140,7 +141,6 @@
 			isa = PBXGroup;
 			children = (
 				79938B6729E8755800A3F654 /* AFL3_0706012110046_WilliamJohnsonWonggeApp.swift */,
-				79037E1329E99AB700EA40E2 /* LandmarkDetail.swift */,
 				79037E0829E992D500EA40E2 /* Views */,
 				79037E0D29E9939500EA40E2 /* Model */,
 				79037E0E29E993A100EA40E2 /* Resources */,
