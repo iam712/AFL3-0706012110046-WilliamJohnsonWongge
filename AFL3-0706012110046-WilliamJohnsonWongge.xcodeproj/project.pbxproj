@@ -15,6 +15,7 @@
 		79037E1629E9CEA000EA40E2 /* FavoriteButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79037E1529E9CEA000EA40E2 /* FavoriteButton.swift */; };
 		79037E1A29E9D98500EA40E2 /* HexagonParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79037E1929E9D98500EA40E2 /* HexagonParameters.swift */; };
 		79037E1C29E9DBA900EA40E2 /* BadgeBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79037E1B29E9DBA900EA40E2 /* BadgeBackground.swift */; };
+		79771EC829F646F400FB9C2B /* CategoryHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79771EC729F646F400FB9C2B /* CategoryHome.swift */; };
 		79938B6829E8755800A3F654 /* AFL3_0706012110046_WilliamJohnsonWonggeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79938B6729E8755800A3F654 /* AFL3_0706012110046_WilliamJohnsonWonggeApp.swift */; };
 		79938B6A29E8755800A3F654 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79938B6929E8755800A3F654 /* ContentView.swift */; };
 		79938B6C29E8755C00A3F654 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 79938B6B29E8755C00A3F654 /* Assets.xcassets */; };
@@ -62,6 +63,7 @@
 		79037E1529E9CEA000EA40E2 /* FavoriteButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteButton.swift; sourceTree = "<group>"; };
 		79037E1929E9D98500EA40E2 /* HexagonParameters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HexagonParameters.swift; sourceTree = "<group>"; };
 		79037E1B29E9DBA900EA40E2 /* BadgeBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BadgeBackground.swift; sourceTree = "<group>"; };
+		79771EC729F646F400FB9C2B /* CategoryHome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryHome.swift; sourceTree = "<group>"; };
 		79938B6429E8755800A3F654 /* AFL3-0706012110046-WilliamJohnsonWongge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AFL3-0706012110046-WilliamJohnsonWongge.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		79938B6729E8755800A3F654 /* AFL3_0706012110046_WilliamJohnsonWonggeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AFL3_0706012110046_WilliamJohnsonWonggeApp.swift; sourceTree = "<group>"; };
 		79938B6929E8755800A3F654 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -114,6 +116,7 @@
 		79037E0829E992D500EA40E2 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				79771EC629F6464700FB9C2B /* Categories */,
 				79B84F8929F5458B0040A97B /* Hikes */,
 				79C34D7C29F021790069BC48 /* Badges */,
 				79037E1829E9CFD700EA40E2 /* Helpers */,
@@ -160,6 +163,14 @@
 				79938B9329E883A300A3F654 /* MapView.swift */,
 			);
 			path = Helpers;
+			sourceTree = "<group>";
+		};
+		79771EC629F6464700FB9C2B /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				79771EC729F646F400FB9C2B /* CategoryHome.swift */,
+			);
+			path = Categories;
 			sourceTree = "<group>";
 		};
 		79938B5B29E8755700A3F654 = {
@@ -376,6 +387,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				79938B6A29E8755800A3F654 /* ContentView.swift in Sources */,
+				79771EC829F646F400FB9C2B /* CategoryHome.swift in Sources */,
 				79B84F8F29F5458B0040A97B /* HikeGraph.swift in Sources */,
 				79C34D7A29F01C450069BC48 /* Badge.swift in Sources */,
 				79938B9429E883A300A3F654 /* MapView.swift in Sources */,
