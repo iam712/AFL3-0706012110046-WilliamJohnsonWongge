@@ -68,6 +68,7 @@
 		79E3D89D29F8E0FF00DADB3B /* LandmarkDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79E3D89C29F8E0FF00DADB3B /* LandmarkDetail.swift */; };
 		79E3D89F29F96A9C00DADB3B /* LandmarkCommands.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79E3D89E29F96A9C00DADB3B /* LandmarkCommands.swift */; };
 		79E3D8A029F96A9C00DADB3B /* LandmarkCommands.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79E3D89E29F96A9C00DADB3B /* LandmarkCommands.swift */; };
+		79E3D8A229F9787500DADB3B /* LandmarkSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79E3D8A129F9787500DADB3B /* LandmarkSettings.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -156,6 +157,7 @@
 		79CAF85729EE2DB900BB053F /* RotateBadgeSymbol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotateBadgeSymbol.swift; sourceTree = "<group>"; };
 		79E3D89C29F8E0FF00DADB3B /* LandmarkDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkDetail.swift; sourceTree = "<group>"; };
 		79E3D89E29F96A9C00DADB3B /* LandmarkCommands.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkCommands.swift; sourceTree = "<group>"; };
+		79E3D8A129F9787500DADB3B /* LandmarkSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkSettings.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -231,6 +233,7 @@
 				79005E4329F7C70C00922F20 /* ContentView.swift */,
 				79E3D89C29F8E0FF00DADB3B /* LandmarkDetail.swift */,
 				79E3D89E29F96A9C00DADB3B /* LandmarkCommands.swift */,
+				79E3D8A129F9787500DADB3B /* LandmarkSettings.swift */,
 				79005E4529F7C71000922F20 /* Assets.xcassets */,
 				79005E4A29F7C71000922F20 /* MacLandmarks.entitlements */,
 				79005E4729F7C71000922F20 /* Preview Content */,
@@ -643,6 +646,7 @@
 			files = (
 				79005E4429F7C70C00922F20 /* ContentView.swift in Sources */,
 				79005E7629F7D04900922F20 /* LandmarkList.swift in Sources */,
+				79E3D8A229F9787500DADB3B /* LandmarkSettings.swift in Sources */,
 				79005E6C29F7D04900922F20 /* Profile.swift in Sources */,
 				79005E6B29F7D04900922F20 /* MapView.swift in Sources */,
 				79E3D8A029F96A9C00DADB3B /* LandmarkCommands.swift in Sources */,

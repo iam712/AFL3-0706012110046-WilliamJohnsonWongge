@@ -25,5 +25,11 @@ struct AFL3_0706012110046_WilliamJohnsonWonggeApp: App {
         #if os(watchOS)
         WKNotificationScene(controller: NotificationController.self, category: "LandmarkNear")
         #endif
+        
+        #if os(macOS)
+        Settings {
+            LandmarkSettings()
+        }
+        #endif
     }
 }
